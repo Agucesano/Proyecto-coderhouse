@@ -44,14 +44,14 @@ nav a:hover{
 h1 {
   padding: 50px;
   text-align: center;
-   font-size: large;
+   font-size: x-large;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
  .nosotros h1{
-  font-size: large;
+  font-size: x-large;
  }
  .productos{
-  font-size: large;
+  font-size: x-large;
  }
 .description{
   font-family: 'Times New Roman', Times, serif;
