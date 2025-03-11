@@ -184,11 +184,12 @@ ul li a{
 }
 
 @media (min-width: 320px) and (max-width: 768px){
-*{
+  html, body {
     overflow-x: hidden;  /* Bloquea el desplazamiento horizontal */
     overflow-y: auto;    /* Permite el desplazamiento vertical */
-
+    width: 100%;         /* Asegura que no haya desbordamiento lateral */
   }
+  
   
   max-width: 768px;
 }
