@@ -185,10 +185,13 @@ ul li a{
 
 @media (min-width: 320px) and (max-width: 768px){
   html, body {
-    overflow-x: hidden;  /* Bloquea el desplazamiento horizontal */
-    overflow-y: auto;    /* Permite el desplazamiento vertical */
-    width: 100%;         /* Asegura que no haya desbordamiento lateral */
+    overflow-x: hidden; /* Evita scroll horizontal */
+    overflow-y: auto; /* Permite scroll vertical */
+    width: 100vw; /* Asegura que el ancho sea el del viewport */
+    margin: 0;
+    padding: 0;
   }
+  
   
   header{
     width: 100%;
