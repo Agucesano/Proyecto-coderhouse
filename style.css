@@ -187,18 +187,19 @@ ul li a{
 
   header{
     width: 100%;
-    display: list-item;
-    justify-content: center;
     height: 100px;
     background-color: rgb(255, 144, 53);
-  }
-  header nav ul li {
     display: flex;
-    align-items: flex end;
-    margin: 5px;
-    font-size: medium;
+    flex-direction: column;
   }
-
+.logoHeader{
+  justify-content: center;
+  align-items: center;
+}
+.secciones{
+  justify-content: center;
+  align-items: center;
+}
   /* decorado main*/
 
   h1 {
