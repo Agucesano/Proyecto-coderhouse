@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 /*Decorado seccion inicio*/
+body{
+  margin: 0;
+  position: relative;
+  padding-bottom: 50px;
+  min-height: 100vh;
+}
 
 header nav ul li a {
   color: rgb(0, 0, 0);
@@ -39,7 +45,6 @@ header nav ul li {
 nav a:hover{
   color: white;
 }
-/* decorado main*/
 
 h1 {
   padding: 50px;
@@ -88,6 +93,8 @@ footer{
   background-color: rgb(255, 144, 53);
   padding: 15px;
   align-items: center;
+  position: absolute;
+  bottom: 0;
 }
 
 footer ul li{
@@ -160,6 +167,8 @@ ul li a{
 .containerForm form textarea{
   width: 100%;
   border: 1px solid #ff9e29;
+  border-radius: 5px;
+  margin-bottom: 20px;
   min-height: 110px;
   max-height: 120px;
 }
@@ -179,16 +188,13 @@ ul li a{
   background: #e39403;
 }
 /* seccion de productos */
-.container-items{
+.catalogo{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 10px;
-  
+  grid-template-rows: repeat(3, 1fr);
+  gap: 8px;
 }
-.item{
-  grid-column: 2/3;
-}
+
 .item{
   border-radius: 10px;
 }
