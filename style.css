@@ -23,7 +23,6 @@ header{
   justify-items: center;
   height: 70px;
   background-color: rgb(255, 144, 53);
-  justify-content: space-between;
 }
 header div a img{
   width: 50px;
@@ -34,7 +33,7 @@ header div a img{
   justify-items: center;
   justify-content: space-between;
   text-decoration: none;
-  margin: 10px;
+  margin: 5px;
 }
 header nav ul li {
   display: inline;
@@ -192,7 +191,7 @@ ul li a{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 8px;
+  gap: 20px;
 }
 
 .item{
@@ -222,7 +221,16 @@ ul li a{
   transform: scale(1.2);
 }
 
-@media (min-width: 320px) and (max-width: 768px){
+@media (min-width: 430px) and (max-width: 932px){
+
+  body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    padding-bottom: 50px;
+    min-height: 100vh;
+  }
 
   header{
     width: 100%;
@@ -238,6 +246,7 @@ ul li a{
 .secciones{
   justify-content: center;
   align-items: center;
+  margin-left: 0;
 }
   /* decorado main*/
 
@@ -303,7 +312,9 @@ ul li a{
 /*catalogo*/
 .catalogo{
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 0.5fr);
   gap: 8px;
+  justify-content: center;
+  padding: 20px;
 }
 }
