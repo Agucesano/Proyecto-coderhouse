@@ -221,7 +221,7 @@ ul li a{
   transform: scale(1.2);
 }
 
-@media (min-width: 430px) and (max-width: 932px){
+@media (min-width: 368px) and (max-width: 720px){
 
   body{
     height: 100%;
