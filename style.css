@@ -300,6 +300,7 @@ ul li a{
   grid-template-rows: repeat(2,1fr);
   margin-top: 25px;
   grid-gap: 0px;
+  padding: 20px;
 }
 .infoForm{
   grid-column: 2/3;
