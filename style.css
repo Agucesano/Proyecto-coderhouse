@@ -259,10 +259,10 @@ ul li a{
     text-align: center;
   }
 
-#nav.active {
+  #nav.active {
     display: block;
   }
-header {
+  header {
   width: 100%;
   height: auto; /* Permite que el header se ajuste automáticamente */
   background-color: rgb(255, 144, 53);
@@ -270,23 +270,23 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 10px 0; /* Espaciado para mejorar apariencia */
-}
-.logoHeader {
+  }
+  .logoHeader {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-}
-.secciones {
+  }
+  .secciones {
   flex-direction: column;
   padding: 0;
-}
+  }
 
-.secciones li {
+  .secciones li {
   padding: 15px;
   border-bottom: 1px solid white;
-}
-}
+  }
+
   /* decorado main*/
 
   h1 {
@@ -312,51 +312,51 @@ header {
     height: 350px;
   }
   /*manin nosotros*/
-.nosotros h1{
+  .nosotros h1{
   font-size: large;
-}
-.presentacion{
+  }
+  .presentacion{
   display: flex;
   font-size: medium;
   justify-content: center;
   font-family: 'Times New Roman', Times, serif;
   margin: 15px;
-}
-.localidad{
+  }
+  .localidad{
   display: flex;
   font-size: medium;
   justify-content: center;
   font-family: 'Times New Roman', Times, serif;
   padding: 20px;
   margin: 0;
-}
-/*decorado de seccion contacto*/
+  }
+  /*decorado de seccion contacto*/
 
-.containerForm{
+  .containerForm{
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(2,1fr);
   margin-top: 25px;
   grid-gap: 0px;
-}
-.infoForm{
+  }
+  .infoForm{
   grid-column: 2/3;
   grid-row: 1/2;
-}
-.relleno{
+  }
+  .relleno{
   grid-row:2/3 ;
   grid-column: 2/3;
-}
-.btn-enviar{
+  }
+  .btn-enviar{
   padding: 20px;
-}
-/*catalogo*/
-.catalogo{
+  }
+  /*catalogo*/
+  .catalogo{
   display: grid;
   grid-template-columns: repeat(1, 0.5fr);
   gap: 8px;
   justify-content: center;
   padding: 20px;
-}
+  }
 }
