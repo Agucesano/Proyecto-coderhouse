@@ -363,7 +363,7 @@ ul li a{
   /*catalogo*/
   .catalogo{
   display: grid;
-  grid-template-columns: repeat(1, 0.5fr);
+  grid-template-columns: repeat(2, 0.5fr);
   gap: 8px;
   justify-content: center;
   padding: 20px;
