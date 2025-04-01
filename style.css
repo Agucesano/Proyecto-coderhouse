@@ -188,6 +188,7 @@ ul li a{
 .containerForm .btn-enviar{
   display: flex;
   padding: 15px;
+  margin-left: 41px;
   font-size: 16px;
   border: none;
   outline: 0px;
@@ -249,6 +250,7 @@ ul li a{
   .menu-toggle {
     display: block;
   }
+
   #nav {
     display: none;
     position: absolute;
@@ -279,12 +281,20 @@ ul li a{
   }
   .secciones {
   flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   }
 
   .secciones li {
-  padding: 15px;
-  border-bottom: 1px solid white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid rgb(221, 124, 13);
+    border-radius: 5px;
   }
 
   /* decorado main*/
@@ -339,6 +349,7 @@ ul li a{
   grid-template-rows: repeat(2,1fr);
   margin-top: 25px;
   grid-gap: 0px;
+  padding: 10px;
   }
   .infoForm{
   grid-column: 2/3;
@@ -348,9 +359,7 @@ ul li a{
   grid-row:2/3 ;
   grid-column: 2/3;
   }
-  .btn-enviar{
-  padding: 20px;
-  }
+
   /*catalogo*/
   .catalogo{
   display: grid;
