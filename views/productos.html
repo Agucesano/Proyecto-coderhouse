@@ -15,7 +15,8 @@
 
       <header>
         <div><a href="../index.html"><img src="../img/LOGO CE.CA.png" alt="" /></a></div>
-        <nav>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+        <nav id="nav">
           <ul class="secciones">
             <li><a href="../index.html">INICIO</a></li>
             <li><a href="./contacto.html">CONTACTO</a></li>
@@ -24,6 +25,11 @@
           </ul>
         </nav>
       </header>
+      <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('nav').classList.toggle('active');
+        });
+    </script>
       <h1 class="productos">Productos</h1>
       <main>
         <div class="catalogo">

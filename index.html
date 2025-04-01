@@ -16,17 +16,23 @@
 
       <header>
         <div class="logoHeader">
-          <a href=""><img src="./img/LOGO CE.CA.png" alt="" /></a>
-        </div>
-        <nav>
+          <a href="#"><img src="./img/LOGO CE.CA.png" alt="Logo"></a>
+      </div>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <nav id="nav">
           <ul class="secciones">
-            <li><a href="#">INICIO</a></li>
-            <li><a href="./views/contacto.html">CONTACTO</a></li>
-            <li><a href="./views/productos.html">PRODUCTOS</a></li>
-            <li><a href="./views/nosotros.html">NOSOTROS</a></li>
+              <li><a href="#">INICIO</a></li>
+              <li><a href="./views/contacto.html">CONTACTO</a></li>
+              <li><a href="./views/productos.html">PRODUCTOS</a></li>
+              <li><a href="./views/nosotros.html">NOSOTROS</a></li>
           </ul>
-        </nav>
+      </nav>
       </header>
+      <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('nav').classList.toggle('active');
+        });
+    </script>
 
       <main>
         <h1>Bienvenidos a CE.CA Poductos</h1>
