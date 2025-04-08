@@ -94,6 +94,7 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
   font-size: large;
+  margin: 10px;
 }
 .logo{
   display: flex;
