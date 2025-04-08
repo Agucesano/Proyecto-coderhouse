@@ -256,6 +256,7 @@ ul li a{
   transform: scale(1.2);
 }
 
+
 @media (min-width: 368px) and (max-width: 720px){
 
   body {
@@ -270,11 +271,12 @@ ul li a{
   .menu-toggle {
     display: block;
   }
+  
 
   #nav {
     display: none;
     position: absolute;
-    top: 70px;
+    top: 50px;
     left: 0;
     width: 100%;
     background-color: rgb(255, 144, 53);
@@ -287,12 +289,12 @@ ul li a{
   }
   header {
   width: 100%;
-  height: auto; /* Permite que el header se ajuste automáticamente */
+  height: auto;
   background-color: rgb(255, 144, 53);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 0; /* Espaciado para mejorar apariencia */
+  padding: 10px 0;
   }
 
   .logoHeader {
@@ -301,21 +303,27 @@ ul li a{
   align-items: center;
   width: 100%;
   }
+
   .secciones {
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0;
+  padding: 10px;
   }
 
   .secciones li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    border: 1px solid rgb(221, 124, 13);
-    border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 2px;
+  border: 1px solid rgb(221, 124, 13);
+  border-radius: 30px;
+  }
+
+  .secciones li a {
+  font-size: small;
   }
 
   /* decorado main*/
@@ -329,8 +337,8 @@ ul li a{
   .productos{
     padding: 50px;
     text-align: center;
-     font-size: large;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .description{
     font-family: 'Times New Roman', Times, serif;
