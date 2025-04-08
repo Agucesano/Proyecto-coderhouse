@@ -9,7 +9,6 @@ body{
   position: relative;
   padding-bottom: 50px;
   min-height: 100vh;
-  background-color: rgb(233, 235, 235);
 }
 
 header nav ul li a {
