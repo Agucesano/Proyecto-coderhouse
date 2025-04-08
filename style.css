@@ -9,6 +9,7 @@ body{
   position: relative;
   padding-bottom: 50px;
   min-height: 100vh;
+  background-color: rgb(233, 235, 235);
 }
 
 header nav ul li a {
@@ -23,23 +24,42 @@ header {
   background-color: rgb(255, 144, 53);
   padding: 15px;
   position: relative;
+  margin: 0;
 }
-.nav {
-  display: none;
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.logoHeader{
+  justify-content: flex-start;
 }
 header div a img{
   width: 50px;
 }
+
 .secciones {
   list-style: none;
   display: flex;
-  gap: 15px;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
-
+.secciones li{
+  border: 1px solid rgb(221, 124, 13);
+  border-radius: 20px;
+}
+.secciones li:hover{
+  background:rgb(241, 165, 79);
+  box-shadow: 0 10px 20px black;
+}
 .secciones li a {
   text-decoration: none;
   color: black;
   font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header nav ul li {
   display: inline;
@@ -263,6 +283,7 @@ ul li a{
 
   #nav.active {
     display: block;
+    height: auto;
   }
   header {
   width: 100%;
@@ -273,6 +294,7 @@ ul li a{
   align-items: center;
   padding: 10px 0; /* Espaciado para mejorar apariencia */
   }
+
   .logoHeader {
   display: flex;
   justify-content: center;
@@ -288,13 +310,12 @@ ul li a{
   }
 
   .secciones li {
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px;
     border: 1px solid rgb(221, 124, 13);
-    border-radius: 5px;
+    border-radius: 30px;
   }
 
   /* decorado main*/
