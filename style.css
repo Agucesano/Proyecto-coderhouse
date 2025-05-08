@@ -22,7 +22,7 @@ main{
 header nav ul li a {
   color: rgb(1, 1, 1);
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 header {
   display: flex;
@@ -90,7 +90,7 @@ h1 {
   padding: 50px;
   text-align: center;
   font-size: x-large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: white;
  }
  .nosotros h1{
@@ -102,7 +102,7 @@ h1 {
   color: white;
  }
 .description{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
   font-size: large;
   margin: 10px;
@@ -119,14 +119,14 @@ h1 {
   display: flex;
   font-size: large;
   justify-content: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Quicksand', sans-serif;
   color: white;
 }
 .localidad{
   display: flex;
   font-size: large;
   justify-content: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Quicksand', sans-serif;
   color: white;
 }
 /*decorado footer*/
@@ -173,14 +173,14 @@ ul li a{
   margin-top: 90px;
 }
 .containerForm h2{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
   font-size: x-large;
   margin-bottom: 15px;
   color: white;
 }
 .containerForm p{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Quicksand', sans-serif;
   color: #ffffff;
   font-size: 17px;
   line-height: 1.2;
@@ -188,7 +188,7 @@ ul li a{
   text-align: center;
 }
 .containerForm a{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 17px;
   text-align: center;
   display: inline-block;
@@ -260,6 +260,7 @@ ul li a{
   direction: column;
   gap: 10px;
   color: white;
+  font-family: 'Quicksand', sans-serif;
 }
 .item img{
   width: 100%;
@@ -352,16 +353,16 @@ ul li a{
    padding: 50px;
    text-align: center;
     font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
   } 
   .productos{
     padding: 50px;
     text-align: center;
     font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   .description{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
     font-size: medium;
   }
@@ -378,14 +379,14 @@ ul li a{
   display: flex;
   font-size: medium;
   justify-content: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Quicksand', sans-serif;
   margin: 15px;
   }
   .localidad{
   display: flex;
   font-size: medium;
   justify-content: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Quicksand', sans-serif;
   padding: 20px;
   margin: 0;
   }
