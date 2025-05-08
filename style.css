@@ -219,7 +219,9 @@ ul li a{
   margin-bottom: 20px;
   min-height: 110px;
   max-height: 120px;
+  padding: 15px 10px;
 }
+
 .containerForm .btn-enviar{
   display: flex;
   padding: 15px;
