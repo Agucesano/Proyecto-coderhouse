@@ -9,7 +9,12 @@ body{
   position: relative;
   padding-bottom: 50px;
   min-height: 100vh;
+  background-image: url('/img/fondo2.0.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 
 header nav ul li a {
   color: rgb(0, 0, 0);
@@ -81,8 +86,8 @@ nav a:hover{
 h1 {
   padding: 50px;
   text-align: center;
-   font-size: x-large;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
  .nosotros h1{
   font-size: x-large;
