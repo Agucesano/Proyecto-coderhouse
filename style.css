@@ -9,15 +9,18 @@ body{
   position: relative;
   padding-bottom: 50px;
   min-height: 100vh;
-  background-image: url('/img/fondo2.0.jpg');
+  background-image: url('img/fondo2.0.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+main{
+  margin-bottom: 10px;
+}
 
 header nav ul li a {
-  color: rgb(0, 0, 0);
+  color: rgb(1, 1, 1);
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -88,18 +91,22 @@ h1 {
   text-align: center;
   font-size: x-large;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
  }
  .nosotros h1{
   font-size: x-large;
+  color: white;
  }
  .productos{
   font-size: x-large;
+  color: white;
  }
 .description{
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
   font-size: large;
   margin: 10px;
+  color: white;
 }
 .logo{
   display: flex;
@@ -113,12 +120,14 @@ h1 {
   font-size: large;
   justify-content: center;
   font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
 .localidad{
   display: flex;
   font-size: large;
   justify-content: center;
   font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
 /*decorado footer*/
 
@@ -168,10 +177,11 @@ ul li a{
   text-align: center;
   font-size: x-large;
   margin-bottom: 15px;
+  color: white;
 }
 .containerForm p{
   font-family: 'Times New Roman', Times, serif;
-  color: #000000;
+  color: #ffffff;
   font-size: 17px;
   line-height: 1.2;
   margin-bottom: 30px;
@@ -186,7 +196,7 @@ ul li a{
   margin-right: auto;
   width: 100%;
   margin-bottom: 15px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: 700;
 }
 .containerForm a i{
@@ -236,9 +246,10 @@ ul li a{
 
 .item{
   border-radius: 10px;
+  border: 1px solid #ff9e29;
 }
 .item:hover{
-  box-shadow: 0 10px 20px black;
+  box-shadow: 0 10px 20px  rgb(255, 144, 53);
 }
 .info-product{
   padding: 15px 30px;
@@ -246,6 +257,7 @@ ul li a{
   display: flex;
   direction: column;
   gap: 10px;
+  color: white;
 }
 .item img{
   width: 100%;
@@ -256,6 +268,7 @@ ul li a{
 }
 .item figure{
   overflow: hidden;
+  border-radius: 10px 10px 0 0;
 }
 .item:hover img{
   transform: scale(1.2);
